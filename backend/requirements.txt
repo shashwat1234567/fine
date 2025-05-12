@@ -1,0 +1,11 @@
+opencv-python
+face-recognition
+firebase-admin
+flask
+flask-cors
+numpy
+watchdog
+ultralytics
+deep-sort
+torch
+torchvision

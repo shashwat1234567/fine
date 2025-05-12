@@ -1,0 +1,26 @@
+{
+    "build": {
+        "files": [
+            "dist/**/*",
+            "electron/**/*",
+            "build/icon.png"
+        ],
+        "extraResources": [
+            {
+              "from": "backend",
+              "to": "backend",
+              "filter": [
+                "**/*"
+              ]
+            },
+            {
+              "from": "faces",
+              "to": "faces",
+              "filter": [
+                "**/*"
+              ]
+            }
+        ]
+    }
+}
+  
